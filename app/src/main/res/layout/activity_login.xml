@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".login.LoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/smpn42"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si-Tra Spada"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="28sp"/>
+
+    <EditText
+        android:id="@+id/et_nis_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="nis"/>
+
+    <EditText
+        android:id="@+id/et_password_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <CheckBox
+        android:id="@+id/showPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/rememberme"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
